@@ -328,13 +328,13 @@ faq:
             The DevSpace will be open 8 - 11 pm, Monday through Thursday."
   - question: "What are the DevFest Tracks?"
     answer: "The DevFest Tracks are a collection of self-paced comprehensive online tutorials in a variety of technical subjects.
-            Each track teaches you how to build a fully-functional project from start to finish. We are offering 4 tracks this year: Beginner, Web Development, iOS Development, and Data Science."
+            Each track teaches you how to build a fully-functional project from start to finish. We are offering 5 tracks this year: Beginner, Web Development, iOS Development, Robotics and Data Science."
   - question: "Do I have to come to the entire week?"
     answer: "No, but be sure to register and attend as many events as you can.
       We will have different company sponsors, tech electives, and fun activities every
       night, so come to as many as you can!"
   - question: "Will there be food?"
-    answer: "Yes! There will be dinner served every night and food throughout the hackathon!
+    answer: "Yes! There will be dinner served on kickoff night!
       If you have any food allergies, make sure to state them when you register, or just email us."
   - question: "Do I need a team or idea to sign up?"
     answer: "No! Just come with a willingness to learn something new :)"
