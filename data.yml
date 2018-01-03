@@ -26,6 +26,7 @@ js:
 
 # some sponsors's images are hardcoded to adjust sizing
 sponsors:
+  "If you would like to be a sponsor, please contact devfest@adicu.com!"
   gold:
     - img: "/img/sponsors/microsoft.png"
       link: "https://microsoft.com"
