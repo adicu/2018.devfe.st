@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   var w = $(window);
 
   if (w.scrollTop() > 0) {
@@ -39,7 +38,7 @@ $(document).ready(function() {
         'left': '100%'
       });
     }
-  }
+  };
 
   function getDistFromTop(element) {
     var distanceScrolled = document.body.scrollTop;
@@ -59,14 +58,14 @@ $(document).ready(function() {
       _y = getDistFromTop($(e.currentTarget.hash)[0]);
       navHeight = $('nav').innerHeight();
       $.scrollTo(_y - navHeight, 500);
-    })
+    });
   });
 
   $('.top-link').each(function(i, el) {
     $(el).click(function(e) {
       e.preventDefault();
       $.scrollTo(0, 500);
-    })
+    });
   });
 
   var md = new MobileDetect(window.navigator.userAgent);
