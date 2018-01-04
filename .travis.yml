@@ -1,13 +1,35 @@
-language: node_js
-node_js:
-  - "7"
-
 notifications:
   email: false
 
+language: node_js
+node_js:
+- '8'
+cache:
+  directories:
+  - node_modules
+  - $HOME/.gem
+
+addons:
+  ssh_known_hosts: adicu.com
+
 before_script:
-  - npm install -g gulp
-  - gem install scss-lint
+- npm install -g gulp
+- gem install scss-lint
 
 script:
-  - gulp build
+- gulp build
+
+before_deploy:
+- test $TRAVIS_BRANCH == "master"
+- openssl aes-256-cbc -K $encrypted_60e6b55cdced_key -iv $encrypted_60e6b55cdced_iv
+  -in $TRAVIS_BUILD_DIR/.ci/deploy_rsa.enc -out $TRAVIS_BUILD_DIR/.ci/deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 $TRAVIS_BUILD_DIR/.ci/deploy_rsa
+- ssh-add $TRAVIS_BUILD_DIR/.ci/deploy_rsa
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: gulp build:optimized && rsync -r --delete-after $TRAVIS_BUILD_DIR/dist/* travis@adicu.com:/srv/2018.devfe.st/public_html
+  on:
+    branch: master
