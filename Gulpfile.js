@@ -1,4 +1,4 @@
-'use strict';
+/* jshint: strict:true */
 
 var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
@@ -34,7 +34,8 @@ gulp.task('sass:lint', function() {
     .pipe(plumber())
     .pipe(scsslint({
       'config': 'scss-lint-config.yml'
-    }));
+    }))
+    .pipe(scsslint.failReporter());
 });
 
 gulp.task('sass:build', function() {
@@ -77,7 +78,7 @@ gulp.task('js:lint', function() {
   return gulp.src(['./src/js/**/*.js', '!./src/js/lib/**/*.js', 'Gulpfile.js'])
     .pipe(plumber())
     .pipe(jshint())
-    .pipe(jshint.reporter('default'));
+    .pipe(jshint.reporter('fail'));
 });
 
 gulp.task('js', ['js:lint', 'js:build']);

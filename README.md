@@ -1,5 +1,7 @@
-2017.devfe.st
+2018.devfe.st
 ========================================
+
+[![Build Status](https://travis-ci.org/adicu/2018.devfe.st.svg?branch=master)](https://travis-ci.org/adicu/2018.devfe.st)
 
 Devfest is gonna be amazing and so is our website!
 
