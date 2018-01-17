@@ -1,27 +1,25 @@
 @import 'colors';
 @import 'typography';
 
-section {
-  .sponsors {
-    background: $almost-white;
-    color: $black;
-    padding-bottom: 4rem;
-    z-index: 2;
+section.sponsors {
+  background: $almost-white;
+  color: $black;
+  padding-bottom: 4rem;
+  z-index: 2;
 
-    .content {
-      position: relative;
-      text-align: center;
-    }
+  .content {
+    position: relative;
+    text-align: center;
+  }
 
-    .separator {
-      padding: 2rem 0;
+  .separator {
+    padding: 2rem 0;
 
-      h2 a {
-        color: $black;
+    h2 a {
+      color: $black;
 
-        &::before, &::after {
-          background: $black;
-        }
+      &::before, &::after {
+        background: $black;
       }
     }
   }
