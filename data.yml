@@ -28,7 +28,7 @@ js:
 sponsors:
   gold:
     - img: "/img/sponsors/goldman.jpg"
-      link: "www.goldmansachs.com"
+      link: "https://www.goldmansachs.com"
   silver:
     #- img: "/img/sponsors/a16z.png"
       #link: "https://a16z.com"
