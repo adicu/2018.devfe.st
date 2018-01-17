@@ -153,10 +153,6 @@ schedule:
         time: "9:30 - 10:00 PM"
         location: "TBD"
         location-link: ""
-      - name: "Tech Elective: Intro to Python"
-        time: "10:00 — 11:00 PM"
-        location: "TBD"
-        location-link: ""
   - day: "Tuesday, Feb 13"
     id: "tuesday"
     events:
