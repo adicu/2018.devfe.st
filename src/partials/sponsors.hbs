@@ -3,7 +3,45 @@
     <h2><a href="#sponsors" class="scrolly-link">Sponsors</a></h2>
   </div>
   <div class="content">
-    <h3> If you are interested in sponsoring the 2018 DevFest, contact us at <a href="mailto:devfest@adicu.com">devfest@adicu.com</a>. </h3>
-  </div>
+    <div class="info-text">
+	<h3>Interested in sponsoring? Send us an email at <a href="mailto:devfest@adicu.com">devfest@adicu.com</a></h3>
+    </div>
+    <br>
+    <div class="gold">
+      <h5>Gold Sponsors</h5>
+      {{#each sponsors.gold}}
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
+      {{/each}}
+    </div>
+    <div class="silver">
+      <h5>Silver Sponsors</h5>
+      {{#each sponsors.silver}}
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
+      {{/each}}
+    </div>
+    <div class="bronze">
+      <h5>Bronze Sponsors</h5>
+      {{#each sponsors.bronze}}
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
+      {{/each}}
+      <!-- Special casing the rough draft logo for sizing -->
+        <div class="rdv"><a href="https://roughdraft.vc"><img src="/img/sponsors/rdv.png"></a></div>
+        <div class="columbia-eng"><a href="https://developers.nytimes.com"><img src="/img/sponsors/nyt.svg"></a></div>
+    </div>
+    <div class="partner">
+      <h5>Nonprofit Partners</h5>
+      {{#each sponsors.nonprofit}}
+        <div class="nonprofit"><a href="{{link}}"><img src="{{img}}" /></a></div>
+      {{/each}}
+    </div>
+    <div class="partner">
+      <h5>Partners</h5>
+      {{#each sponsors.partner}}
+        <div><a href="{{link}}"><img src="{{img}}" /></a></div>
+      {{/each}}
+      <!-- Special casing the columbia engineering logo for sizing -->
+        <div class="columbia-eng"><a href="http://engineering.columbia.edu"><img src="/img/sponsors/columbiaengineering.png"></a></div>
+    </div>
+	</div>
 </section>
 
