@@ -1,12 +1,12 @@
 meta:
   title: "DevFest 2018"
   description: "Columbia's annual week-long workshop series and hackathon: Jan 30 - Feb 4, 2017"
-  facebook_image: "/img/lion.png"  # /img/facebook.png
-  twitter_image: "/img/lion.png"  # /img/twitter.png
-  image: "/img/lion.png"  # /img/share.png
-  twitter_handle: "@adicu"  # @minimill_co
-  domain: "devfe.st"  # minimill.co
-  url: "http://devfe.st"  # https://minimill.co
+  facebook_image: "/img/lion.png"  
+  twitter_image: "/img/lion.png" 
+  image: "/img/lion.png" 
+  twitter_handle: "@adicu" 
+  domain: "devfe.st" 
+  url: "http://devfe.st" 
   google_analytics_id: "UA-90533740-1" # UA-66637918-1
   theme_color: "#9BD1D4" # #FFFFFF
 
@@ -29,6 +29,8 @@ sponsors:
   gold:
     - img: "/img/sponsors/goldman.jpg"
       link: "https://www.goldmansachs.com"
+    - img: "/img/sponsors/twilio.png"
+      link: "https://www.twilio.com"
   silver:
     #- img: "/img/sponsors/a16z.png"
       #link: "https://a16z.com"
@@ -50,8 +52,15 @@ sponsors:
       link: "https://insomniacookies.com"
     - img: "/img/sponsors/gongcha.png"
       link: "http://www.gongchausa.com/"
-    - img: "/img/sponsors/hint.jpg"
+    - img: "/img/sponsors/hint.png"
       link: "https://www.drinkhint.com/"
+    - img: "/img/sponsors/starbucks.png"
+      link: "https://www.starbucks.com/"
+    - img: "/img/sponsors/quantopian.png"
+      link: "https://www.quantopian.com/"
+    - img: "/img/sponsors/do.png"
+      link: "https://www.digitalocean.com/"
+
 
 judges:
 #  - name: "Peter Boyce II"
@@ -72,11 +81,11 @@ judges:
 #    bio:  "Chief Data Scientist, New York Times"
 
 prizes:
-#  - sponsor: "Brown Institute"
-#    sponsor-link: "http://brown.stanford.edu"
-#    title:   "The best tool to advance journalism"
-#    prize:   "Cloth-bound data science book set autographed by Edward Tufte"
-#    lil-decoration: "triangle"
+  - sponsor: "Digital Ocean"
+    sponsor-link: "http://digitialocean.com"
+    title:   "Best Use of Digital Ocean Products"
+    prize:   "$500 in Digital Ocean Credit"
+    lil-decoration: "triangle"
 #  - sponsor: "NYC Open Data"
 #    sponsor-link: "https://nycopendata.socrata.com/"
 #    title:   "Best NYC project"
@@ -136,7 +145,7 @@ schedule:
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
-              Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
+              There will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Intro to Git and Github"
         time: "8:30 — 9:00 PM"
         location: "TBD"
@@ -165,12 +174,12 @@ schedule:
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
-              Tonight there will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
+              There will also be micro-lectures, tech electives, and fun activities, running in parallel with the DevSpace."
       - name: "Micro-lecture: Beginner Track"
         time: "TBD"
         location: "TBD"
         location-link: ""
-      - name: "Micro-lecture: Intro to Flask"
+      - name: "Micro-lecture: Intro to UI/UX"
         time: "TBD"
         location: "TBD"
         location-link: ""
@@ -190,8 +199,12 @@ schedule:
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
-              Tonight there will also be tech electives and fun activities, running in parallel with the DevSpace."
+              There will also be tech electives and fun activities, running in parallel with the DevSpace."
       - name: "Tech Elective: Intro to Functional Programming"
+        time: "TBD"
+        location: "TBD"
+        location-link: ""
+      - name: "Micro-lecture: Intro to Bots (in Flask)"
         time: "TBD"
         location: "TBD"
         location-link: ""
@@ -207,7 +220,7 @@ schedule:
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
-              Tonight there will also be a Civic Tech Panel running in parallel with the DevSpace."
+              There will also be a Civic Tech Panel running in parallel with the DevSpace."
       - name: "Civic Tech: Past, Present, & Future"
         time: "7:00 - 8:00 PM"
         location: "TBD"
@@ -223,16 +236,17 @@ schedule:
     events:
       - name: "Women in Tech Mixer"
         time: "8:00 - 9:00 PM"
-        location: "TBD"
+        location: "Lerner Satow Room"
         location-link: "https://www.google.com/maps/place/The+Northwest+Corner+Building/@40.8100718,-73.964176,17z/data=!4m8!1m2!2m1!1snorthest+corner+building!3m4!1s0x89c2f63fa274f18d:0xca5281f7c76460fb!8m2!3d40.8101104!4d-73.9619646"
         desc: "Join us for a women in tech mixer, featuring some female engineers from companies around NYC. We'll have snacks!"
   - day: "Saturday, Feb 17"
     id: "saturday"
     events:
-      - name: "PoC Lunch"
+      - name: "People of Color (PoC) Lunch"
         time: "12:00 PM"
         location: "TBD"
         location-link: ""
+        desc: "Join us for a people of color in tech mixer. We'll have snacks!"
       - name: "Hackathon Kickoff"
         time: "1:00 PM"
         location: "Roone Arledge Auditorium"
