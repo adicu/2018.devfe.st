@@ -39,6 +39,8 @@ sponsors:
   bronze:
     - img: "/img/sponsors/tinder.svg"
       link: "https://tinder.com"
+    - img: "/img/sponsors/hrt.svg"
+      link: "http://www.hudson-trading.com/"
     #- img: "/img/sponsors/rdv.png"
     #  link: "http://www.roughdraft.vc/"
   nonprofit:
