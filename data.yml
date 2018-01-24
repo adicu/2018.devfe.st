@@ -41,8 +41,7 @@ sponsors:
       link: "https://tinder.com"
     #- img: "/img/sponsors/rdv.png"
     #  link: "http://www.roughdraft.vc/"
-    - img: "/img/sponsors/crying.jpg"
-      link: "https://www.columbia.edu/"
+
 
   nonprofit:
     - img: "/img/sponsors/civichall.png"
@@ -145,6 +144,15 @@ schedule:
         time: "6:00 - 6:50 PM"
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
+
+      - name: "Kickoff"
+        time: "7:00 - 7:50 PM"
+        location: "501 Northwest Building"
+        location-link: "https://cuit.columbia.edu/501-northwest-corner-building"
+        desc: "Join us to hear from two awesome speakers and their unique experiences in tech.
+                  First, we'll have Jenn Schiffer, pixel design artist and tech satirist.
+                  Then, we'll invite Aparna Kumar, senior researcher at Spotify."
+
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
