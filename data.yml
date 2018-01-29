@@ -36,7 +36,8 @@ sponsors:
       #link: "https://a16z.com"
     #- img: "/img/sponsors/capitalone.png"
       #link: "https://www.capitalone.io"
-
+    - img: "/img/sponsors/jpmorgan.png"
+      link: "https://www.jpmorgan.com/country/US/en/jpmorgan"
   bronze:
     - img: "/img/sponsors/tinder.svg"
       link: "https://tinder.com"
