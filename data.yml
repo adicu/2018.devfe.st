@@ -74,6 +74,7 @@ sponsors:
       link: "https://ollieseats.com/"
 
 
+
 judges:
 #  - name: "Peter Boyce II"
 #    link: "http://generalcatalyst.com/team/peter-boyce-ii/"
@@ -151,6 +152,14 @@ prizes:
 #    lil-decoration: ""
 
 schedule:
+  - day: "Saturday, Feb 10"
+    id: "saturday"
+    events:
+      - name: "Pre-DevFest Social"
+        time: "10:30PM - 1:30AM"
+        location: "Junzi Kitchen"
+        location-link: "https://goo.gl/maps/WXSdJbCRuuT2"
+        desc: "Meet other people interested in tech and purchase small plates and drinks at our pre-DevFest social at Junzi Kitchen"
   - day: "Monday, Feb 12"
     id: "monday"
     events:
