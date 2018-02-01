@@ -70,6 +70,8 @@ sponsors:
       link: "https://www.shakeshack.com/"
     - img: "/img/sponsors/bptea.png"
       link: "https://www.barpatea.com/"
+    - img: "/img/sponsors/ollie.png"
+      link: "https://ollieseats.com/"
 
 
 judges:
@@ -91,6 +93,12 @@ judges:
 #    bio:  "Chief Data Scientist, New York Times"
 
 prizes:
+  - sponsor: "JPMorgan Chase"
+    sponsor-link: "https://www.jpmorgan.com/country/US/en/jpmorgan"
+    title:   "Best Hack for Social Good"
+    prize:   "Bose SoundLink Bluetooth Speakers for each member of the winning team"
+    lil-decoration: "circle"
+
   - sponsor: "Digital Ocean"
     sponsor-link: "http://digitialocean.com"
     title:   "Best Use of Digital Ocean Products"
