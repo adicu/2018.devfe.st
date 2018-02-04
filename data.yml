@@ -281,10 +281,6 @@ schedule:
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               There will also be tech electives and fun activities, running in parallel with the DevSpace."
 
-      - name: "Intro to Functional Programming Presented by Spotify"
-        time: "7:00 - 7:30 PM"
-        location: "TBD"
-        location-link: ""
       - name: "Boba Break"
         time: "7:30 - 8:00 PM"
         location: "Carleton Commons"
