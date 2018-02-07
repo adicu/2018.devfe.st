@@ -322,7 +322,7 @@ schedule:
         desc: "At the DevSpace you'll be able to work through any of the 4 DevFest Tracks with the help of TAs and peers.
               There will also be a Civic Tech Panel running in parallel with the DevSpace."
 
-      - name: "Civic Tech Panel: Past, Present, & Future"
+      - name: "Civic Tech Panel: Careers in Civic Data"
         time: "7:00 - 8:00 PM"
         location: "CS Lounge"
         location-link: ""
