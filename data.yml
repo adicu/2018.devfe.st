@@ -75,6 +75,10 @@ sponsors:
       link: "https://www.barpatea.com/"
     - img: "/img/sponsors/Ollie.png"
       link: "https://ollieseats.com/"
+    - img: "/img/sponsors/lolo.png"
+      link: "http://www.lolosseafoodshack.com/"
+    - img: "/img/sponsors/chapati.png"
+      link: "http://chapatihousenyc.com/"
 
 
 
@@ -103,7 +107,7 @@ prizes:
     prize:   "Bose SoundLink Bluetooth Speakers for each member of the winning team"
     lil-decoration: "circle"
   - sponsor: "Twilio"
-    sponsor-link: "https://www.twilio.com"
+    sponsor-link: "https://go.twilio.com/twilio-voices/"
     title:   "Write a technical article for Twilio Voices, preferably using a Twilio product"
     prize:   "$500 per article"
     lil-decoration: "square"
@@ -187,17 +191,20 @@ schedule:
     id: "monday"
     events:
       - name: "Kickoff Dinner!"
-        time: "6:00 - 7:00 PM"
+        time: "8:00 - 9:00 PM"
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
+        desc: "We'll celebrate the start of DevFest with dinner from Chapati House.
+              We'll also have drinks and desserts thanks to Hint Water and Shake Shack.
+              Note: Students who attend the Kickoff will get priority for food."
 
       - name: "Kickoff"
         time: "7:00 - 8:00 PM"
-        location: "501 Northwest Building"
-        location-link: "https://cuit.columbia.edu/501-northwest-corner-building"
+        location: "417 IAB"
+        location-link: "https://cuit.columbia.edu/417-iab"
         desc: "Join us to hear from two awesome speakers and their unique experiences in tech.
                   First, we'll have Jenn Schiffer, pixel design artist and tech satirist.
-                  Then, we'll hear from Aparna Kumar, senior researcher at Spotify."
+                  Then, we'll hear from Lydia Chilton, a Columbia Professor who researches Human-Computer Interaction."
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
@@ -365,9 +372,10 @@ schedule:
     id: "saturday"
     events:
       - name: "People of Color (PoC) Lunch"
-        time: "11:00 - 1:00 PM"
-        location: "TBD"
-        location-link: ""
+        time: "12:00 - 1:00 PM"
+        location: "Lerner Satow Room"
+        location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
+        desc: "Come mingle with other students and professionals of color over food from Lolo's Seafood Shack!"
 
       - name: "Hackathon Kickoff"
         time: "1:00 PM"
