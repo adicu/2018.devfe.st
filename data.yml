@@ -190,14 +190,6 @@ schedule:
   - day: "Monday, Feb 12"
     id: "monday"
     events:
-      - name: "Kickoff Dinner!"
-        time: "8:00 - 9:00 PM"
-        location: "Carleton Commons"
-        location-link: "http://www.wikicu.com/Carleton_Lounge"
-        desc: "We'll celebrate the start of DevFest with dinner from Chapati House.
-              We'll also have drinks and desserts thanks to Hint Water and Shake Shack.
-              Note: Students who attend the Kickoff will get priority for food."
-
       - name: "Kickoff"
         time: "7:00 - 8:00 PM"
         location: "417 IAB"
@@ -205,6 +197,13 @@ schedule:
         desc: "Join us to hear from two awesome speakers and their unique experiences in tech.
                   First, we'll have Jenn Schiffer, pixel design artist and tech satirist.
                   Then, we'll hear from Lydia Chilton, a Columbia Professor who researches Human-Computer Interaction."
+      - name: "Kickoff Dinner!"
+        time: "8:00 - 9:00 PM"
+        location: "Carleton Commons"
+        location-link: "http://www.wikicu.com/Carleton_Lounge"
+        desc: "We'll celebrate the start of DevFest with dinner from Chapati House.
+              We'll also have drinks and desserts thanks to Hint Water and Shake Shack.
+              Note: Students who attend the Kickoff will get priority for food."
       - name: "DevSpace"
         time: "8:00 — 11:00 PM"
         location: "Carleton Commons"
