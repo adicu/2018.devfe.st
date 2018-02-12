@@ -412,8 +412,6 @@ schedule:
       - name: "Ultimate Frisbee"
         time: "4:30 - 5:30 PM"
         location: "Lawns"
-      - name: "Contrary Capital"
-        time: "5:00 - 6:00 PM"
         location: "Lerner Satow Room"
         location-link: "http://www.wikicu.com/Roone_Arledge_Auditorium"
       - name: "Dinner"
