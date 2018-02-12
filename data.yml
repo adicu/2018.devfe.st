@@ -96,6 +96,10 @@ judges:
     link: "https://www.linkedin.com/in/kayigwe/"
     img: "/img/judges/igwe.png"
     bio: "Research Assistant, Columbia University"
+  - name: "Jenn Schiffer"
+    link: "http://jennmoney.biz/"
+    img: "/img/judges/jenn.png"
+    bio: "Web App Developer, Pixel Design Artist, and Tech Satirist"
 
 #  - name: "Peter Boyce II"
 #    link: "http://generalcatalyst.com/team/peter-boyce-ii/"
