@@ -83,6 +83,20 @@ sponsors:
 
 
 judges:
+
+  - name: "Jennifer Brown"
+    link: "https://jennifercbrown.wordpress.com/"
+    img:  "/img/judges/brown.png"
+    bio:  "Emerging Technologies Coordinator, Columbia Libraries"
+  - name: "Weeks Mensah"
+    link: "https://www.linkedin.com/in/weeksmensah/"
+    img:  "/img/judges/mensah.png"
+    bio: "Managing Director, Queens College Tech Incubator (TIQC)"
+  - name: "Kay Chioma Igwe"
+    link: "https://www.linkedin.com/in/kayigwe/"
+    img: "/img/judges/igwe.png"
+    bio: "Research Assistant, Columbia University"
+
 #  - name: "Peter Boyce II"
 #    link: "http://generalcatalyst.com/team/peter-boyce-ii/"
 #    img:  "/img/judges/pb.jpg"
