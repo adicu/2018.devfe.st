@@ -235,10 +235,7 @@ schedule:
         time: "9:00 — 9:30 PM"
         location: "Mudd 833"
         location-link: "https://cuit.columbia.edu/833-mudd"
-      - name: "Robotics Micro-lecture"
-        time: "9:00 — 9:30 PM"
-        location: "Mudd 627"
-        location-link: "https://cuit.columbia.edu/627-mudd"
+	desc: "Absolute beginner's guide to version control, Git, and Github"
       - name: "iOS Micro-lecture"
         time: "9:30 - 10:00 PM"
         location: "Mudd 633"
@@ -247,14 +244,17 @@ schedule:
         time: "9:30 — 10:00 PM"
         location: "Mudd 627"
         location-link: "https://cuit.columbia.edu/627-mudd"
+	desc: "Learn how to style and structure webpages with HTML and CSS"
       - name: "Intro to Python"
         time: "10:00 - 11:00 PM"
         location: "Mudd 833"
         location-link: "https://cuit.columbia.edu/833-mudd"
+	desc: "Learn the basics of Python, a scripting language that is useful in many fields. Helpful for the web-dev track!"
       - name: "Intro to NumPy"
         time: "10:00 - 11:00 PM"
         location: "Mudd 633"
         location-link: "https://cuit.columbia.edu/633-mudd"
+	desc: "Learn how to use NumPy, a need-to-know Python library for data scientists"
 
 
   - day: "Tuesday, Feb 13"
@@ -295,6 +295,8 @@ schedule:
         time: "9:00 - 10:00 PM"
         location: "Mudd 233"
         location-link: "https://cuit.columbia.edu/233-mudd"
+	desc: "Join us for a workshop on natural language processing, a field of computer science that approaches problems 
+	    using textual data in a computational way. In this workshop, we'll go over some fundamental concepts and techniques used in the exciting field of NLP!"
       - name: "Web Dev Microlecture"
         time: "9:00 - 9:30 PM"
         location: "Mudd 644"
@@ -330,10 +332,15 @@ schedule:
         time: "9:00 - 10:00 PM"
         location: "Mudd 633"
         location-link: "https://cuit.columbia.edu/633-mudd"
+	desc: "Learn about the different applications of geospatial analysis, what geospatial analysis is, and what do its 
+	    data types look like. In this workshop, we'll through some different tools in Python, including geojsonio and 
+	    shapely. This workshop is best suited for people with some programming experience (especially in python), but 
+	    is fruitful for anyone interested in data science!"
       - name: "Cookies and Code"
         time: "10:00 - 11:00 PM"
         location: "Carleton Commons"
         location-link: "http://www.wikicu.com/Carleton_Lounge"
+	desc: "Join us for Cookies and Code: DevFest edition! We'll have cookies and milk (and some Valentine's Day treats) :)"
 
   - day: "Thursday, Feb 15"
     id: "thursday"
@@ -355,6 +362,9 @@ schedule:
         time: "8:00 - 9:00 PM"
         location: "Mudd 633"
         location-link: "https://cuit.columbia.edu/633-mudd"
+	desc: "Learn how to use some of the basic tools in Adobe Illustrator to create vector-based graphics, logos, and more!
+	     Please have Illustrator installed prior to the workshop. If you don't have a copy, you can download a 7-day trial 
+	     version in the following link: https://creative.adobe.com/products/download/illustrator?promoid=Y69SGWKS&mv=other"
       - name: "Technical Writing with Twilio"
         time: "8:00 - 9:00 PM"
         location: "TBD"
@@ -363,10 +373,13 @@ schedule:
         time: "9:00 - 10:00 PM"
         location: "Mudd 227"
         location-link: "https://cuit.columbia.edu/227-mudd"
+	desc: "Learn how to add backend services to your web applications without server side programming. This workshop will 
+	   provide a tutorial on how to integrate Google Firebase services which offers many useful features, including real-time database, Firebase store, user login authentication, and more."
       - name: "Intro to Flask with Bots"
         time: "9:00 - 10:00 PM"
         location: "Mudd 633"
         location-link: "https://cuit.columbia.edu/633-mudd"
+	desc: "Learn about how to make a Messenger bot using Flask, a powerful micro web framework."
 
 
   - day: "Friday, Feb 16"
