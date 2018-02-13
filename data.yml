@@ -244,7 +244,7 @@ schedule:
         location-link: "https://cuit.columbia.edu/627-mudd"
         desc: "Learn how to style and structure webpages with HTML and CSS"
       - name: "Intro to Python"
-        time: "9:30 - 10:15 PM"
+        time: "10:0 - 11:00 PM"
         location: "Mudd 833"
         location-link: "https://cuit.columbia.edu/833-mudd"
         desc: "Learn the basics of Python, a scripting language that is useful in many fields. Helpful for the web-dev track!"
