@@ -46,8 +46,8 @@ sponsors:
       link: "https://tinder.com"
     - img: "/img/sponsors/hrt.svg"
       link: "http://www.hudson-trading.com/"
-    #- img: "/img/sponsors/rdv.png"
-    #  link: "http://www.roughdraft.vc/"
+    - img: "/img/sponsors/kickstarter.png"
+      link: "http://kickstarter.com/"
 
 
   nonprofit:
@@ -361,8 +361,8 @@ schedule:
         location: "Mudd 633"
         location-link: "https://cuit.columbia.edu/633-mudd"
         desc: "Learn how to use some of the basic tools in Adobe Illustrator to create vector-based graphics, logos, and more!
-             Please have Illustrator installed prior to the workshop. If you don't have a copy, you can download a 7-day trial
-             version in the following link: https://creative.adobe.com/products/download/illustrator?promoid=Y69SGWKS&mv=other"
+             Please have Illustrator installed prior to the workshop. If you don't have a copy, you can download a 7-day free trial
+             from the Adobe Illustrator website."
       - name: "Technical Writing with Twilio"
         time: "8:00 - 9:00 PM"
         location: "CS Lounge"
@@ -377,7 +377,7 @@ schedule:
         time: "9:00 - 10:00 PM"
         location: "Mudd 633"
         location-link: "https://cuit.columbia.edu/633-mudd"
-        desc: "Learn about how to make a Messenger bot using Flask, a powerful micro web framework."
+        desc: "Learn about how to make a Facebook Messenger bot using Flask, a powerful micro web framework."
 
 
   - day: "Friday, Feb 16"
@@ -412,18 +412,24 @@ schedule:
         time: "2:00 PM"
         location: "Roone Arledge Auditorium"
         location-link: "http://www.wikicu.com/Roone_Arledge_Auditorium"
-      - name: "Google Cloud Tech Talk"
-        time: "2:00 - 4:00 PM"
-        location: "TBD"
-        location-link: ""
-        desc: "Learn more about how to leverage the Google Cloud
-                Platform and then stay for a chance to network about potential careers at Google"
+      - name: "Google Cloud Platform Tech Talk"
+        time: "2:00 - 3:00 PM"
+        location: "Lerner Satow Room"
+        location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
+        desc: "Learn how to bring your hacks to the next level using Google Cloud Platform's compute and machine learning technologies. 
+        Our APIs require no prior knowledge of machine learning to get started."
       - name: "Team Formation"
         time: "2:30 - 3:00 PM"
         location: "Back of Roone Arledge Auditorium"
         location-link: "http://www.wikicu.com/Roone_Arledge_Auditorium"
+      - name: "Google Cloud Platform Career Panel and Q&A"
+        time: "3:00 - 4:00 PM"
+        location: "Lerner Satow Room"
+        location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
+        desc: "Hear from Google engineers about what it's like to work at \"The Best Place to Work\", learn how they prepared 
+        for their interviews, and what advice they would give their college-selves."
       - name: "UI/UX Workshop Presented by JP Morgan"
-        time: "3:15 - 4:00 PM"
+        time: "4:00 - 5:00 PM"
         location: "Lerner Satow Room"
         location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
       - name: "Ultimate Frisbee"
