@@ -337,11 +337,11 @@ schedule:
     id: "friday"
     events:
       - name: "DevFest VC Panel"
-        time: "6:00 - 7:00 PM"
+        time: "4:00 - 7:00 PM"
         location: "Lerner Satow Room"
         location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
       - name: "Women in Tech Mixer"
-        time: "7:30 - 9:30 PM"
+        time: "8:00 - 10:00 PM"
         location: "Lerner Satow Room"
         location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
         desc: "Join us for a women in tech mixer, featuring some female engineers from companies around NYC. We'll have snacks!"
