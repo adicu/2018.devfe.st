@@ -98,6 +98,10 @@ judges:
     link: "http://jennmoney.biz/"
     img: "/img/judges/jenn.png"
     bio: "Web App Developer, Pixel Design Artist, and Tech Satirist"
+  - name: "Hila Raz Harris"
+    link: "https://twitter.com/hilaraz?lang=en"
+    bio: "Co-founder of COALITION"
+    img: "/img/judges/hila.tif"
 
 prizes:
   - sponsor: "Twilio"
