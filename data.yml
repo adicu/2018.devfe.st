@@ -100,8 +100,8 @@ judges:
     bio: "Web App Developer, Pixel Design Artist, and Tech Satirist"
   - name: "Hila Raz Harris"
     link: "https://twitter.com/hilaraz?lang=en"
+    img: "/img/judges/hila1.png"
     bio: "Co-founder of COALITION"
-    img: "/img/judges/hila.tif"
 
 prizes:
   - sponsor: "Twilio"
