@@ -369,7 +369,7 @@ schedule:
         time: "2:00 - 3:00 PM"
         location: "Lerner Satow Room"
         location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
-        desc: "Learn how to bring your hacks to the next level using Google Cloud Platform's compute and machine learning technologies. 
+        desc: "Learn how to bring your hacks to the next level using Google Cloud Platform's compute and machine learning technologies.
         Our APIs require no prior knowledge of machine learning to get started."
       - name: "Team Formation"
         time: "2:30 - 3:00 PM"
@@ -379,7 +379,7 @@ schedule:
         time: "3:00 - 4:00 PM"
         location: "Lerner Satow Room"
         location-link: "http://lernerhall.columbia.edu/jed-d-satow-room"
-        desc: "Hear from Google engineers about what it's like to work at \"The Best Place to Work\", learn how they prepared 
+        desc: "Hear from Google engineers about what it's like to work at \"The Best Place to Work\", learn how they prepared
         for their interviews, and what advice they would give their college-selves."
       - name: "UI/UX Workshop Presented by JP Morgan"
         time: "4:00 - 5:00 PM"
@@ -445,6 +445,8 @@ schedule:
 
 
 faq:
+  - question: "Who designed your awesome website and other branding materials?"
+    answer: "ADI's designer, Bella Shim! If you're interested in more of her work, you can email her at bella@adicu.com."
   - question: "What is DevFest?"
     answer: "DevFest is a week-long learnathon that culminates in an 18-hour hackathon. DevFest focuses on fostering community
       and helping new developers end the week with a completed project. ADI hosts DevFest every Spring."
